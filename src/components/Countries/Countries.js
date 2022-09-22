@@ -15,7 +15,7 @@ const Countries = () => {
     }, [])
     return (
         <div>
-            <h2>This Hello Mello Yellow is my Countries Section:{countries.length}</h2>
+            <h2>This Hello Gallo Yellow is my Countries Section:{countries.length}</h2>
             {/* step:5 show data on UI */}
             <div className='countries-container'>{
                 countries.map(country => <Country
