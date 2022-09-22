@@ -14,7 +14,7 @@ const Countries = () => {
         .then(data => setCountries(data))
     }, [])
     return (
-        <div>
+        <div className='countries-container'>
             <h1>This is my Countries Section:{countries.length}</h1>
             {/* step:5 show data on UI */}
             {
